@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soban AI</title>
+    
+    <!-- boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Include in your HTML head -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+ScrollReveal().reveal('.services-box', {
+  delay: 100,
+  distance: '40px',
+  duration: 800,
+  origin: 'bottom',
+  interval: 200
+});
+</script>
+
+</head>
+
+<body>
+     <!-- ADD THIS HERE -->
+  <div id="form-alert" class="form-success">
+    ✅ Your message has been sent successfully!
+  </div>
+        <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">Soban AI</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">My Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+
+
+
+    <!-- bars background -->
+<div class="bars-box active">
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+</div>
+
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Muhammad Soban Ijaz</h1>
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Data Scienctist">Data Scienctist</span>
+                <span style="--i:2;" data-text="AI/ML Engineer"> AI/ML Engineer</span>
+            </h2>
+            
+            <p>Dedicated and results-oriented Computer Science student specializing in
+            Data Science, with strong expertise in machine learning, deep learning and
+            artificial intelligence. Experienced in building end-
+            to-end ML solutions—from data preprocessing to deployment. Skilled in applying neural
+            networks, natural language processing, and computer vision techniques
+            to real-world problems across healthcare, finance, security domains etc.</p>
+            
+            <div class="btn-sci">
+                <a href="#" onclick="{window.open('images/MuhammadSobanIjaz.pdf','_blank')}" class="btn">Download Resume/CV</a>
+                <div class="sci">
+                    <a href="https://www.linkedin.com/in/mohammed-soban-ijaz-102203224/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/skyark747" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+          
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images\home11.jpg">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+<!-- services section -->
+<!-- services section -->
+<section class="services">
+  <h2 class="heading">My <span>Services</span></h2>
+  <div class="services-container">
+
+    <!-- 🔷 FEATURED: Data Science -->
+    <div class="services-box featured-service">
+      <div class="icon">
+        <i class='bx bx-line-chart'></i>
+        <a href="#"><i class='bx bx-arrow-back'></i></a>
+      </div>
+      <h3>Spatial Data Science</h3>
+      <p>
+        I apply spatial datascience techniques to extract insights and deliver impactful solutions to problems.
+      </p>
+    </div>
+
+    
+    <!-- 🔹 Machine Learning -->
+    <div class="services-box">
+      <div class="icon">
+        <i class='bx bx-brain'></i>
+        <a href="#"><i class='bx bx-arrow-back'></i></a>
+      </div>
+      <h3>Machine Learning</h3>
+      <p>
+        I build ML models for classification, regression, and clustering — from data preprocessing to model development.
+      </p>
+    </div>
+
+    <!-- 🔹 Deep Learning -->
+    <div class="services-box">
+      <div class="icon">
+        <i class='bx bx-network-chart'></i>
+        <a href="#"><i class='bx bx-arrow-back'></i></a>
+      </div>
+      <h3>Deep Learning & Computer Vision</h3>
+      <p>
+        Skilled in computer vision, NLP, and LLM fine-tuning using PyTorch and TensorFlow.
+      </p>
+    </div>
+
+    <!-- 🔹 Web App Development -->
+    <div class="services-box">
+      <div class="icon">
+        <i class='bx bx-code-curly'></i>
+        <a href="#"><i class='bx bx-arrow-back'></i></a>
+      </div>
+      <h3>Web Development</h3>
+      <p>
+        I develop and deploy websites using MERN stack.
+      </p>
+    </div>
+
+    <!-- 🔹 Visualization -->
+    <div class="services-box">
+      <div class="icon">
+        <i class='bx bx-data'></i>
+        <a href="#"><i class='bx bx-arrow-back'></i></a>
+      </div>
+      <h3>Data Visualization</h3>
+      <p>
+        I deliver interactive dashboards and charts using  Seaborn, and Plotly.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Resume Section -->
+<section class="resume">
+  <div class="resume-container">
+
+    <!-- WHY HIRE ME? -------------------------------------------------- -->
+    <div class="resume-box">
+      <h2>Why Hire Me?</h2>
+      <p class="desc">
+        I am a passionate AI/ML Engineer with expertise in not only data science but spatial datascience too. I know how to leverage
+        location based sensor data to find results. I have expertise in Computer Vision and have made ML/DL models in NumPy
+        indicating that I have deep understanding of mathematics behind AI and can leverage it to make any custom model suitable to find 
+        solutions to problems.
+              </p>
+
+      <!-- tab buttons -->
+      <button class="resume-btn">Education</button>
+      <button class="resume-btn">Skills</button>
+      <button class="resume-btn">About Me</button>
+    </div>
+
+    <!-- MAIN RESUME WRAPPER (all four tabs) --------------------------- -->
+    <div class="resume-wrapper">
+
+      <!-- ================= EDUCATION ================= -->
+      <div class="resume-detail education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <p class="desc">Academic journey enriched with data‑science, AI, and software‑engineering expertise.</p>
+
+        <div class="resume-grid">
+          <div class="resume-card">
+            <p class="year">2022 - Present </p>
+            <h3>Bachelors in Computer Science</h3>
+            <p class="company">Information Technology University , Pk</p>
+            <ul>
+              <li>Projects in AI/ML, CV</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= SKILLS ================= -->
+      <div class="resume-detail skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        
+        <div class="skills-grid">
+          <span class="skill-badge"><i class='bx bxl-python'></i>Python</span>
+          <span class="skill-badge"><i class='bx bxl-tensorflow'></i>TensorFlow</span>
+          <span class="skill-badge"><i class='bx bxl-pytorch'></i>PyTorch</span>
+          <span class="skill-badge"><i class='bx bx-cycling'></i>scikit‑learn</span>
+          <span class="skill-badge"><i class='bx bxl-postgresql'></i>MySQL</span>
+          <span class="skill-badge"><i class='bx bxl-git'></i>Git &amp; GitHub</span>
+          <span class="skill-badge"><i class='bx bxl-javascript'></i>Web development (MERN)</span>
+          <span class="skill-badge"><i class='bx bxl-computervision'></i>Computer vision</span>
+          <span class="skill-badge">spatial data-science</span>
+          <span class="skill-badge">machine learning</span>
+
+        </div>
+      </div>
+
+      <!-- ================= ABOUT ME ================= -->
+      <div class="resume-detail about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p class="desc">AI/ML‑enthusiast based in Pakistan, passionate about leveraging AI to solve real‑world problems.</p>
+
+        <div class="about-grid">
+          <div class="about-item"><strong>Name:</strong> Muhammad Soban Ijaz</div>
+          <div class="about-item"><strong>Gender:</strong> Male</div>
+          <div class="about-item"><strong>Age:</strong> 22 Years</div>
+          <div class="about-item"><strong>City:</strong> Lahore, Pakistan</div>
+          <div class="about-item"><strong>Full‑Time:</strong> Available</div>
+          <div class="about-item"><strong>Freelance:</strong> Available</div>
+          <div class="about-item"><strong>Email:</strong> subhanahmad747@gmail.com</div>
+          <div class="about-item"><strong>Languages:</strong> English, Urdu</div>
+        </div>
+      </div>
+
+    </div><!-- /resume-wrapper -->
+
+  </div><!-- /resume-container -->
+</section>
+
+
+<!-- ==========================================================
+     PORTFOLIO  (5 projects – accordion style)
+========================================================== -->
+<section class="projects" id="projects">
+  
+  <div class="portfolio-grid">
+    <!-- Project cards go here (same structure you had) -->
+    <!-- Repeat for each project -->
+    <div class="project-card">
+      <div class="project-left">
+        <p class="numb">01</p>
+        <h3>Geospatial Analysis of Wildfires in Nevada</h3>
+        <p class="summary">
+          Conducted a spatiotemporal analysis of wildfires in Nevada (2020–2022) using spatial data science techniques;
+          explored relationships between wildfire occurrence and environmental factors (temperature,
+          precipitation,vapour pressure deficit).
+        </p>
+        <div class="tech">spatial Python libraries (e.g., Geopandas, rioxarray, Pysal)</div>
+        <div class="links">
+          <a href="https://github.com/skyark747/Geospatial-Analysis-of-Wildfires"><i class='bx bxl-github'></i></a>
+        </div>
+        <details>
+          <summary>More Details</summary>
+          
+          <ul><li> Spatial lag gave information on how nearby locations were affecting 
+          the observations giving spatial outliers and quantifing spatial auto
+          correlation i.e positive or negative . Global spatial auto-correlation 
+          indicated that the relation between temperature , vapor pressure 
+          deficit and precipitation with wildfires was positive i.e similar values 
+          close to other similar values. Local spatial auto-correlation suggested 
+          that for 2020 and 2021 wildfires occurred more in areas of high 
+          temperatures but in 2022 more wildfires were observed in low 
+          temperature areas which could indicate some other social factors 
+          effecting wildfires for that year. Wildfires tend to occurr in areas 
+          where there was very low rainfall and very high vapor pressure deficit 
+          indicating more dryness in air. Spatial regression suggested that 
+          there was some kind of spatial dependance in the data due to which 
+          simple linear regression did not work well , the clustering of residuals 
+          was discounted after incoporating spatial regression with spatial fixed 
+          effects and spatial lag model indicating wildfires vary with 
+          neighborhood and the nearby location has an influence on the 
+          current observation. Clustering was observed after applying Ripley G 
+          indicating location and environmental variables have an  influence on 
+          the occurrence of wildfire. The work can be extended to find relation 
+          of more factors with wildfires like camping sites and bornfires.
+          </li></ul>
+          
+        </details>
+      </div>
+      <div class="project-right">
+        <img src="images/output.png" alt="Smart Resume Analyzer Preview">
+      </div>
+    </div>
+  </div>
+  <!-- ============  PROJECT 02  ================================= -->
+<div class="project-card">
+  <div class="project-left">
+    <span class="numb">02</span>
+    <h3>Image Denoising using Convolutional Autoencoders</h3>
+    <p class="summary">
+      Developed a Convolutional Autoencoder in numpy and applied to image denoising. The architecture is modular
+      i.e layers/params can be adjusted according to needs. Trained and tested on CIFAR-10 images. The model takes
+      noisy images as input and reconstructs clean versions.
+    </p>
+    <div class="tech">OpenCV · NumPy · Numba</div>
+
+    <div class="links">
+      <a href="https://github.com/skyark747/Convolutional-Autoencoder"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <details>
+      <summary>More Details</summary>
+       
+      <ul><li>The Autoencoder is designed in oop with separate class for each part i.e Convolution, deconvolution , pool and unpool.
+        For unpool bilinear interpolation technique is used and max pool is used for pooling operation. The model architecture is 
+        modular i.e one can make as many layers as one wants with variable params. The code is written keeping in mind the architecture
+        followed by PyTorch and mimics its approach. The model also has skip-connections i.e convolutional layers added to deconvolutional 
+        layers to deal with information loss. Moreover, the training is optimized using Numba.jit library available in python.
+      </li></ul>
+
+    </details>
+  </div>
+
+  <div class="project-right">
+    <img src="images/ED.jpg" alt="Facial Liveness preview">
+  </div>
+</div>
+
+<!-- ============  PROJECT 03  ================================= -->
+<div class="project-card">
+  <div class="project-left">
+    <span class="numb">03</span>
+    <h3>Person Identifier</h3>
+    <p class="summary">
+      A neural network made in numpy for person identification. 
+      A complete ANN with 2 hidden layers and fully implemented back and forward propagation. 
+    </p>
+    <div class="tech">Python · Numpy · OpenCV</div>
+
+    <div class="links">
+      <a href="https://github.com/skyark747/person-Identification-model"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <details>
+      <summary>More Details</summary>
+      
+      <ul><li>All the data collection and preprocessing was done by me. The images are augmented to increase the dataset size and 
+        resized to 32x32 for faster training. The neural network is implemented in NumPy with 2 hidden layers but variable input to 
+        number of neurons. The model has early stopping and drop-out regularization to deal with over fitting. We do not need to run 
+        the model every time , the trained model is saved using .npz file and we can run the model in test mode for testing.
+      </li></ul>
+
+      
+    </details>
+  </div>
+
+  <div class="project-right">
+    <img src="images/classification.png" alt="Paper summarizer preview">
+  </div>
+</div>
+<!-- ============  PROJECT 04  ================================= -->
+<div class="project-card">
+  <div class="project-left">
+    <span class="numb">04</span>
+    <h3>AirBnb</h3>
+    <p class="summary">
+      A AirBnb clone implemented in MERN.
+    </p>
+    <div class="tech">MongoDb atlas· Express.js ·React.js · Node.js · Html  · TailwindCss </div>
+
+    <div class="links">
+      
+      <a href="https://github.com/skyark747/Airbnb"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <details>
+      <summary>More Details</summary>
+      <ul><li>A perfect Airbnb clone with jwt authentication and an admin page for crud operations.</li></ul>
+
+    </details>
+  </div>
+
+  <div class="project-right">
+    <img src="images/airbnb.png" alt="Crime heatmap">
+  </div>
+</div>
+
+<!-- ============  PROJECT 05  ================================= -->
+<div class="project-card">
+  <div class="project-left">
+    <span class="numb">05</span>
+    <h3>Client-Server File Transfer</h3>
+    <p class="summary">
+      Designed and implemented a server-client system in Linux for file sharing, featuring efficient resource
+      allocation. Supported multi-client concurrency and ensured data integrity
+    </p>
+    <div class="tech">C · Socket Programming · linux </div>
+    <div class="links">
+      <a href="https://github.com/skyark747/server-client"><i class='bx bxl-github'></i></a>
+    </div>
+    <details>
+      <summary>More Details</summary>
+      <ul><li>Server is multi-threaded and multiple clients can connect to server at the same time . Concurrency is ensured
+            using semaphores i.e solution to reader writer Problem. Encrytion and decryption is also ensured. When client uploads
+            a file to the server, the file contents are encrypted using Run-Length Encoding and sent to server in chunks, at the 
+            server Side the encrypted chunks are assembled together and saved as a file. When client downloads a file , server first
+            checks if file exists, if it does then the file is sent to client in chunks and at client side it is saved after decryption. 
+            Moreover , when a client first connects to the server , they need to login/signup only then they can proceed.
+          </li></ul>
+
+    </details>
+    
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- Contact Section -->
+<section class="contact">
+    <div class="contact-container">
+        
+        <!-- Left Side: Contact Information -->
+        <div class="contact-box">
+            <h2>Let's Work Together</h2>
+            <p class="desc">
+                As a passionate Data Science,ML,AI professional, I enjoy turning data into insights, building intelligent systems, and solving real-world problems using AI and machine learning.
+            </p>
+            <p>
+                Whether you're working on a research project, building a predictive model, need help with Machine Learning,deep learning, Computer Vison or want to explore data-driven decision making — I’d love to hear from you!
+            </p>
+            <p>
+                Feel free to connect via email . I typically respond within 24 hours.
+            </p>
+
+            <div class="contact-detail">
+                <i class="bx bxs-envelope"></i>
+                <div class="detail">
+                    <p>Email</p>
+                    <p>subhanahmad747@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+    
+    
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+<script>
+  const form = document.querySelector("form");
+  const alertBox = document.getElementById("form-alert");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: { Accept: "application/json" },
+    });
+
+    if (response.ok) {
+      form.reset();
+      alertBox.style.display = "block";
+      setTimeout(() => {
+        alertBox.style.display = "none";
+      }, 4000);
+    }
+  });
+</script>
+
+</body>
+</html>
